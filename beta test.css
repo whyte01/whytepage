@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(29, 20, 20);
+    color: aliceblue;
+    font-family: 'Times New Roman';
+}
+.Attention{
+    background-color: palevioletred;
+    padding: 15px 21px;
+    margin: 4px 55px;
+    width: 80%;
+    border-radius: 8px;
+}
+.Attention .p-1{
+    text-transform: capitalize;
+    font-size: 1.3em;
+}
+.Mint-header{
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 15px 21px;
+    margin: 4px 55px;
+    font-size: 1.4em;
+}
+.Mint-header h1 span{
+    color: palevioletred;
+
+}
+.mint-euro span{
+    color: palevioletred;
+
+}
+.mint-euro{
+    width: 70%;
+    display: flex;
+    margin: 12px auto;
+    justify-content: space-between;
+    
+}
+.secttion-1{
+    border: 2px solid gray;
+    border-radius: 13px;
+    padding: 30px;
+    width: 50%;
+    background-color: rgb(46, 43, 43);
+}
+.secttion-2{
+    justify-content: center;
+    text-transform: lowercase;
+    padding: 25px;
+}
+
+.mint-token{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    text-align: center;
+
+}
+.secttion-1 .mint-o-o{
+    justify-content: space-around;
+    /* padding: 15px; */
+    text-transform: lowercase;
+
+}
+
+/* .secttion-1 .btn{
+    text-align: center;
+    border-radius: 6px;
+    padding: 4px;
+} */
+.secttion-1 .btn button{
+    color: azure;
+    background-color: rgb(57, 53, 53);
+    padding: 10px 2em;
+    border-radius: 6px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Gill Sans';
+    font-weight: bold;
+    font-size: 0.9em;
+
+}
+/* .mint-o.o h3{
+    font-size: 1.8em;
+}
+.token-c h3{
+    font-size: 1.1em;
+} */
+.mint-token h3{
+    font-size: 1.4em;
+    font-family: Arial;
+    text-transform: capitalize;
+
+}
+.mint-o-o h6{
+    font-size: 1em;
+}
+
+footer{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+
+
+}
+footer div{
+    width: 20%;
+
+}
+footer div a{
+    padding: 15px 0;
+    text-decoration: none;
+    /* gap: 100px; */
+    display: block;
+    color: gray;
+    transition: all .6secs ease;
+
+}
+footer div a:first-child{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+footer div a:first-child:hover{
+    color: blueviolet;
+}
